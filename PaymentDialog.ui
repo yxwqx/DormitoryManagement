@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PaymentDialog</class>
+ <widget class="QDialog" name="PaymentDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>选择支付方式</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>您的房间为单人间需缴费3000元</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="semesterComboBox">
+     <item>
+      <property name="text">
+       <string>第一学期</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>第二学期</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>第三学期</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>第四学期</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>第五学期</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>第六学期</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>第七学期</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>第八学期</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="paymentMethodComboBox">
+     <item>
+      <property name="text">
+       <string>微信</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>支付宝</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>云闪付</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>银行卡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>现金</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="okButton">
+       <property name="text">
+        <string>确定缴费</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
